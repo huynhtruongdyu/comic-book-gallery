@@ -1,5 +1,17 @@
 ﻿@{
     Layout = null;
+
+    var seriesTitle = "The Amazing Spider-Man";
+    var issueNumber = 700;
+    var description = "<p>Hello <i>aasdfas</i></p>";
+    var artists = new string[]
+    {
+        "Script: Duy Huynh",
+        "Pencils: Duy Huynh",
+        "Inks: Duy huynh",
+        "Color: Duy huynh",
+        "Letters: Duy huynh"
+    };
 }
 
 <!DOCTYPE html>
@@ -11,7 +23,12 @@
 </head>
 <body>
     <div>
-        <h1>Hello form detail view</h1>
+        <h1>@seriesTitle</h1>
+        <h2>Issue #@issueNumber</h2>
+        <h5>Description:</h5>
+        <div>@Html.Raw(description)</div>
+        <h5>Artists:</h5>
+        <div>@Html.Raw(artists)</div>
     </div>
 </body>
 </html>
