@@ -88,7 +88,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Font\content_fonts_glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Script\bootstrap.bundle.js" />
+    <Content Include="Script\bootstrap.bundle.min.js" />
+    <Content Include="Script\bootstrap.js" />
+    <Content Include="Script\bootstrap.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -101,8 +107,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Font\glyphicons-halflings-regular.eot" />
+    <Content Include="Font\glyphicons-halflings-regular.ttf" />
+    <Content Include="Font\glyphicons-halflings-regular.woff" />
     <None Include="packages.config" />
     <Content Include="Views\ComicBooks\Detail.cshtml" />
+    <Content Include="Script\bootstrap.bundle.js.map" />
+    <Content Include="Script\bootstrap.bundle.min.js.map" />
+    <Content Include="Script\bootstrap.js.map" />
+    <Content Include="Script\bootstrap.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
